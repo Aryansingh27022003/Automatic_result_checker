@@ -29,7 +29,7 @@ smtp_port = 587
 
 # Your Gmail credentials and the App Password
 from_email = 'aryansingh27022003@gmail.com'  # Your Gmail address
-to_email = 'piyush21_ug@ei.nits.ac.in'  # Recipient's email address
+to_email = 'aryan21_ug@cse.nits.ac.in'  # Recipient's email address
 app_password = 'odys hlmn jrah adiy'  # Replace with your generated App Password
 
 # Email details
@@ -37,7 +37,7 @@ subject = 'Screenshot of Page'
 message = 'Screenshot of the page where text was found'
 
 # Loop through the range of hallticket numbers
-for hallticket_no in range(2058112335, 2058112342):
+for hallticket_no in range(2058112338, 2058112342):
     time.sleep(0.5)
     radio_button_xpath = f"//input[@value='3']"
 
@@ -90,4 +90,3 @@ for hallticket_no in range(2058112335, 2058112342):
             print(f"Error sending email: {str(e)}")
 
 driver.quit()
- 
